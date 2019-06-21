@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1823B93E22BD4E8B004C17A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823B93D22BD4E8B004C17A6 /* AppDelegate.swift */; };
-		1823B94022BD4E8B004C17A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823B93F22BD4E8B004C17A6 /* ViewController.swift */; };
 		1823B94322BD4E8B004C17A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1823B94122BD4E8B004C17A6 /* Main.storyboard */; };
 		1823B94622BD4E8B004C17A6 /* AppRitika.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1823B94422BD4E8B004C17A6 /* AppRitika.xcdatamodeld */; };
 		1823B94822BD4E8F004C17A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1823B94722BD4E8F004C17A6 /* Assets.xcassets */; };
 		1823B94B22BD4E8F004C17A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1823B94922BD4E8F004C17A6 /* LaunchScreen.storyboard */; };
 		1823B95622BD4E8F004C17A6 /* AppRitikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823B95522BD4E8F004C17A6 /* AppRitikaTests.swift */; };
 		1823B96122BD4E8F004C17A6 /* AppRitikaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823B96022BD4E8F004C17A6 /* AppRitikaUITests.swift */; };
+		1823B96F22BD510B004C17A6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823B96E22BD510B004C17A6 /* TableViewController.swift */; };
+		1823B97122BD5139004C17A6 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823B97022BD5139004C17A6 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 /* Begin PBXFileReference section */
 		1823B93A22BD4E8B004C17A6 /* AppRitika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppRitika.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1823B93D22BD4E8B004C17A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1823B93F22BD4E8B004C17A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1823B94222BD4E8B004C17A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1823B94522BD4E8B004C17A6 /* AppRitika.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppRitika.xcdatamodel; sourceTree = "<group>"; };
 		1823B94722BD4E8F004C17A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		1823B95C22BD4E8F004C17A6 /* AppRitikaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppRitikaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1823B96022BD4E8F004C17A6 /* AppRitikaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRitikaUITests.swift; sourceTree = "<group>"; };
 		1823B96222BD4E8F004C17A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1823B96E22BD510B004C17A6 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1823B97022BD5139004C17A6 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				1823B93D22BD4E8B004C17A6 /* AppDelegate.swift */,
-				1823B93F22BD4E8B004C17A6 /* ViewController.swift */,
 				1823B94122BD4E8B004C17A6 /* Main.storyboard */,
+				1823B96E22BD510B004C17A6 /* TableViewController.swift */,
+				1823B97022BD5139004C17A6 /* ToDo.swift */,
 				1823B94722BD4E8F004C17A6 /* Assets.xcassets */,
 				1823B94922BD4E8F004C17A6 /* LaunchScreen.storyboard */,
 				1823B94C22BD4E8F004C17A6 /* Info.plist */,
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1823B94022BD4E8B004C17A6 /* ViewController.swift in Sources */,
 				1823B94622BD4E8B004C17A6 /* AppRitika.xcdatamodeld in Sources */,
+				1823B96F22BD510B004C17A6 /* TableViewController.swift in Sources */,
 				1823B93E22BD4E8B004C17A6 /* AppDelegate.swift in Sources */,
+				1823B97122BD5139004C17A6 /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
